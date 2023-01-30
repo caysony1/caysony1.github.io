@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: rgb(223, 217, 217);
+}
+
+/* Used Rajasekhar Mekala's personal website as a reference to create a fixed vertical sidebar for navigating the portfoilio */
+#sidebar {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    background-color:rgb(223, 217, 217);
+    border-radius: 10px;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(3, 47, 3);
+}
+
+span {
+    margin-right: 3px;
+}
+
+.menu {
+    padding: 0;
+}
+
+.home {
+    border-bottom: 3px;
+    border-bottom-style: solid;
+    border-color: black;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.education {
+    border-bottom: 3px;
+    border-bottom-style: solid;
+    border-color: black;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.interests {
+    border-bottom: 3px;
+    border-bottom-style: solid;
+    border-color: black;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+#newsidebar {
+    /*height: 100%;
+    width: 20%;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    background-color:rgb(223, 217, 217);
+    border-radius: 10px;*/
+    display: none;
+}
+
+#personalphoto {
+    height: auto;
+    width: 15%;
+    border-radius: 5px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.hobbiesphoto {
+    height: auto;
+    width: 20%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.asection {
+    margin-left: 20.5%;
+}
+
+.anarticle {
+    padding: 10px;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.bulletlists {
+    list-style-type: circle;
+}
+
+.det {
+    padding: 5px;
+}
+
+.hobbies {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+footer {
+    margin-top: 50px;
+    margin-left: 20.5%;
+}
+
+.contact {
+    color: green;
+    font-size: 1em;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+#contact {
+    color: black;
+}
+
+#maili {
+    color: black;
+    margin-right: 3px;
+}
+
+.contact#copyr {
+    color: black;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 640px) {
+    #sidebar {
+        display: none;
+    }
+
+    #newsidebar {
+        height: 100%;
+        width: 95%;
+        border: 0;
+        background-color:rgb(223, 217, 217);
+        margin: auto;
+        display: block;
+    }
+
+    .asection {
+        margin: auto;
+    }
+    
+    footer {
+        margin: auto;
+    }
+}
