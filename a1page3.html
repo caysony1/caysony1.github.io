@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Cayson Kai-Sheng Yim
+EMAIL: yimck@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Cayson Kai-Sheng Yim">
+  <meta name="description" content="Cayson's Portfolio">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="a1style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <title>Cayson's Portfolio</title>
+</head>
+
+
+
+<body>
+
+  <!--I felt <h1> tags were not needed because it would've ruined the minimalistic aesthetic of the portfolio-->
+  <!--I only needed article headings; the navigation bar is enough to tell users what each page is about-->
+
+  <!--Header-->
+  <header>
+    <!--Used W3CSchools and Rajasekhar Mekala's personal website as references and sources to make the navigation bar (using <nav>, <ul>, and <li> tags) and on how to add custom icons-->
+    <nav id="sidebar">
+      <!--Menu-->
+      <ul class="menu">
+        <li class="home"><span class="material-icons">home</span><a href="index.html">Home</a></li>
+        <li class="education"><span class="material-icons">school</span><a href="a1page1.html">Education & Skills</a></li>
+        <li class="interests"><span class="material-icons">interests</span><a href="a1page2.html">Interests</a></li>
+        <li class="interests">
+            <span class="material-icons">code</span>
+            <a href="a1page3.html">Selected Projects</a>
+        </li>
+        <li class="interests"><a href="Resume.pdf">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--Section-->
+  <!--Used Stella Lau's Personal Page as an outline and reference on how to structure this section of HTML-->
+  <section class="asection">
+    <nav id="newsidebar">
+        <!--Menu-->
+        <ul class="menu">
+          <li class="home"><span class="material-icons">home</span><a href="index.html">Home</a></li>
+          <li class="education"><span class="material-icons">school</span><a href="a1page1.html">Education & Skills</a></li>
+          <li class="interests"><span class="material-icons">interests</span><a href="a1page2.html">Interests</a></li>
+        </ul>
+    </nav>
+    <!--Article1-->
+    <article class="anarticle">
+        <h2>Selected Projects</h2>
+        <p>
+            <i>Personal Portfolio (this website)</i>
+            <ul class="bulletlists">
+                <li>Building a personal portfolio to showcase achievements, skills, aspirations, collection of projects, and interests</li>
+                <li>Designed and adapted with responsiveness using media queries, to ensure and improve accessibility and usability for mobile devices</li>
+                <li>Marked up with <b>HTML</b> and refined design choices with <b>CSS</b>; aggregated user functionality and interactive design with <b>JavaScript</b></li>
+                <li>Skills: HTML, CSS, and JavaScript</li>
+            </ul>
+        </p>
+        <p>
+            <i><a href="https://hack-uci-23.vercel.app/">Recipeasy</a></i>
+            <br>
+            <br>
+            <strong>Problem:</strong> The mission of Recipeasy is to reduce food waste and facilitate users to eat healthier and more economically friendly.
+            <br>
+            <br>
+            <strong>Collborators:</strong> Seongjin Yoon, Piyashi Biswas, and Chessah Fox.
+            <br>
+            <br>
+            <strong>Role:</strong> I was one of the two - Seongjin and I - frontend developers of this project. Using HTML, CSS, and JavaSCript we designed the website.
+            <br>
+            <br>
+            <strong>Tools:</strong> Visual Studio Code, HTML/CSS/JS, Insomnia, Node.js, Express, Vercel
+            <br>
+            <br>
+            <strong>What we learned:</strong> Full stack development is difficult and 
+            <br>
+            <br>
+            <img src="RecipeasyHome.png" id="recipeasyphotos">
+            <img src="RecipeasyRecipes.png" id="recipeasyphotos">
+
+        </p>
+        <p>
+            <ul class="bulletlists">
+                <li>
+                <li>Recipeasy is a web application </li>
+                <li>Collaborated with students at Hack at UCI 2023's Hackathon to rapid prototype a full stack web application</li>
+                <li>Integrated HTML, CSS, and JavaScript to develop the fronend</li>
+                <li></li>
+                <li>Implemented Spoonacular's API to generate recipes according to user input to minimize food waste and healthy diets</li>
+                <li>Skills: HTML, CSS, JavaScript, Node.js, Express, and Vercel</li>
+            </ul>
+        </p>
+    </article>
+    <!--Article2-->
+    <article class="anarticle">
+    </article>
+  </section>
+
+  <!--Footer-->
+  <footer>
+    <p class="contact" id="contact"><em>Contact:</em></p>
+    <p class="contact"><span class="material-icons" id="maili">contact_mail</span>yimck@uci.edu</p>
+    <p class="contact" id="copyr">copyright 2022</p>
+  </footer>
+</body>
+</html>
