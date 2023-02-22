@@ -6,6 +6,7 @@
 
 body {
     background-color: rgb(223, 217, 217);
+    background-color: white;
 }
 
 /* Used Rajasekhar Mekala's personal website as a reference to create a fixed vertical sidebar for navigating the portfoilio */
@@ -17,6 +18,7 @@ body {
     border-style: solid;
     border-color: black;
     background-color:rgb(223, 217, 217);
+    background-color: white;
     border-radius: 10px;
 }
 
