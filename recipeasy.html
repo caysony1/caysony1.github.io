@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Cayson Kai-Sheng Yim
+EMAIL: yimck@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Cayson Kai-Sheng Yim">
+  <meta name="description" content="Cayson's Portfolio">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="a1style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <title>Cayson's Portfolio</title>
+</head>
+
+
+
+<body>
+
+    <!--Header-->
+    <header class="container-fluid">
+        <div class="row">
+            <nav class="nav justify-content-end">
+              <a class="nav-link active" href="index.html">Home</a>
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="selectedprojects.html" role="button" aria-expanded="false">Selected Projects</a>
+                <nav class="dropdown-menu">
+                  <a class="dropdown-item" href="selectedprojects.html">Selected Projects Collection</a>
+                  <hr class="dropdown-divider">
+                  <a class="dropdown-item" href="thriving.html">Digital Thriving</a>
+                  <a class="dropdown-item" href="recipeasy.html">Recipeasy</a>
+                  <a class="dropdown-item" href="jamout.html">Jam Out!</a>
+                </nav>
+              <a class="nav-link" href="Resume.pdf">Resume</a>
+            </nav>
+          </div>
+    </header>
+
+    <section class="container-fluid">
+        <div class="row justify-content-center my-5 mx-0" style="padding-bottom: 3%; border-style: solid; border-color: white; border-bottom-color: black;">
+            <div class="col-md-7">
+                <img src="RecipeasyHome.png" width="100%" height="auto">
+            </div>
+            <div class="col-md-5">
+                <p class="intro"><b>My Role:</b> UX/UI Developer</p>
+                <p class="intro"><b>Collaborators:</b> Seongjin Yoon, Piyashi Biswas, Chessah Fox</p>
+                <p class="intro"><b>Tools:</b> HTML/CSS/JS, Insomnia, Node.js, Express, Vercel</p>
+                <p class="intro"><b>Context:</b> Hack at UCI's 2023 Hackathon</p>
+                <p class="intro"><b>Duration:</b> February-Februay; 3 days</p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-3">
+                <img src="recipeasy1.png" width="100%" height="auto">
+            </div>
+        </div>
+
+        <div class="row justify-content-center my-5">
+            <div class="col-md-5">
+                <h5 class="text-center display-6">Hack at UCI 2023</h5>
+                <br>
+                <p class="text-center description">
+                    In February 2023, Hack at UCI 2023 hosted a campus-wide hackathon.
+                </p>
+                <br>
+                <!--<h5 class="text-center heading">How might we design healthy, inclusive digital spaces that 
+                    enable individuals and communities to thrive?
+                </h5>-->
+            </div>
+        </div>
+
+        <div class="container px-4 text-center" style="padding-bottom: 3%; border-style: solid; border-color: white; border-bottom-color: black;">
+            <div class="row gx-5 mx-3">
+                <div class="col">
+                    <div class="p-3 border shadow-sm mb-10" style="background-color: rgba(229, 229, 229, 0.5);">
+                        <h5>Understand & Define</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border shadow-sm mb-10" style="background-color: rgb(230, 230, 230, 0.5);">
+                        <h5>Ideate & Prototype</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border shadow-sm mb-10" style="background-color: rgb(230, 230, 230, 0.5);">
+                        <h5>Test & Reflect</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center my-5">
+            <div class="col-md-5">
+                <h5 class="text-center textcolor">
+                    <b>Mission Statement:</b> To take the next step in reducing food waste and its contribution to environmental issues, and to encourage and promote healthier dietary practices.
+                </h5>
+                <br>
+                <h5 class="text-center textcolor">
+                    <b>Problem Statement:</b> How might we promote reducing the ongoing food waste crisis by consumers and facilitate healthy dietary practices?
+                </h5>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <h5 class="text-center textcolor display-6">
+                    <b>Understanding and Defining the problem space:</b>
+                </h5>
+                <br>
+                <p class="text-start description">
+                    According to the U.S. Environmental Protection Agency (EPA), food waste "generally refers to food that is not consumed due to inefficiency or choice at the retail and consumption stage". 
+                    It is estimated that about 30% to 40% of food in the United States goes to waste, 
+                    and acccording to experts, "private households have been identified as key actors in food waste generation". 
+                    In a 2011 publication, the EPA estimated that food waste constitutes for the fourth most amount (14.5%) of our municipal solid waste (MSW) at landfills (Fig. 1).
+                    This has consequential impacts; MSW are contributors to various environmental issues. 
+                    The decomposition process of food-generated MSW at landfills emits methane, which is a greenhouse gas (GHG) that is much more effective at trapping heat. 
+                    GHG pollution such as methane is detrimental to Earth's atmosphere as it is linked to today's anthropogenic climate change crisis. 
+                    <br><br>
+                    <!--Interview-->
+                </p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center my-5">
+            <div class="col-md-3">
+                <div class="card border-light text-center">
+                    <img src="EPA.png" width="100%" height="auto">
+                        <div class="card-body">
+                            <p class="description"><b>Figure 1:</b> "Total MSW Generation (by category), 250 Million Tons" (U.S. Environmental Protection Agency)</p>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card border-light text-center">
+                    <img src="EPA2.png" width="100%" height="auto">
+                        <div class="card-body">
+                            <p class="description"><br><br><b>Figure 2:</b> "Total MSW Generation (by category), 250 Million Tons" (U.S. Environmental Protection Agency)</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container px-4 text-center" style="padding-bottom: 3%; border-style: solid; border-color: white; border-bottom-color: black;">
+            <div class="row gx-5 mx-3">
+                <div class="col">
+                    <div class="p-3 border shadow-sm mb-10" style="background-color: rgba(229, 229, 229, 0.5);">
+                        <h5>Understand & Define</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border shadow-sm mb-10" style="background-color: rgb(230, 230, 230, 0.5);">
+                        <h5>Ideate & Prototype</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border shadow-sm mb-10" style="background-color: rgb(230, 230, 230, 0.5);">
+                        <h5>Test & Reflect</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center my-5">
+            <div class="col-md-5">
+                <h5 class="text-center textcolor display-6">
+                    <b>Beginning to Ideate & Prototype:</b>
+                </h5>
+                <br>
+                <p class="text-start description">
+                    Due to the time constraint of hackathons (36 hours), we utilized rapid prototyping methods to efficiently iterate prototypes; therefore, we had little documentation. 
+                    On the first day of the event, we planned out what tech stack we wanted to use to build out our website as well as which API to implement. 
+                    After some deliberation and conversations with the mentors, we decided to use a Node.js and Express.js driven back-end and a HTML/CSS/JavaScript front-end. 
+                    To deploy our website, we chose to use Vercel due to its simplicity to setup and it also being recommended by the mentors. 
+                    Some considerations for other languages to use were Python with Flask, however because our front-end would use JavaScript, our team wanted a JavaScript runtime environment, Node.js and Express.js. 
+                    Having the front-end and back-end built on the same programming language allowed into less issues developing
+                    After deciding what tech stack to use, we researched on which web APIs would provide us with the recipes and information about those recipes - Spoonacular API. 
+                    One of our non-functional requirements for this website was to design and build for the extremes. 
+                    We brainstormed that individuals with significant dietary restrictions were our extreme users and wanted to make sure the API we implemented had dietary data. 
+
+                    <br><br>
+                    The second day of the event was when we did most of the developing. 
+                    We chose to split our team into two sub-teams: front-end and back-end. 
+                    Chessah and Piyashi were responsible for developing the back-end, while Seongjin and I were responsible for the front. 
+                    Once Chessah and Piyashi got the back-end to receive the JSON data and we had completed the HTML/CSS/JavaScript, it was time to complete them. 
+                    One of the main challenges we had however, were combining the two together. However, after some help from the mentors and problem-solving as a team, we managed to get it to work. 
+
+                    <br><br>
+                    By Sunday, most of the development had been completed. We prepared to sumbit our website for judging and enjoyed learning what others had built. 
+                </p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <div class="card border-light text-center">
+                    <img src="RecipeasyHome.png" width="100%" height="auto">
+                        <div class="card-body">
+                            <p class="description">The homescreen of Recipeasy.</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <div class="card border-light text-center">
+                    <img src="RecipeasyRecipes.png" width="100%" height="auto">
+                        <div class="card-body">
+                            <p class="description">An example of the recipe outputs.</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container px-4 text-center" style="padding-bottom: 3%; border-style: solid; border-color: white; border-bottom-color: black;">
+            <div class="row gx-5 mx-3">
+                <div class="col">
+                    <div class="p-3 border shadow-sm mb-10" style="background-color: rgba(229, 229, 229, 0.5);">
+                        <h5>Understand & Define</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border shadow-sm mb-10" style="background-color: rgb(230, 230, 230, 0.5);">
+                        <h5>Ideate & Prototype</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border shadow-sm mb-10" style="background-color: rgb(230, 230, 230, 0.5);">
+                        <h5>Test & Reflect</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center my-5">
+            <div class="col-md-5">
+                <h5 class="text-center textcolor display-6"><b>Reflection & Closing Remarks:</b></h5>
+                <br>
+                <p class="text-start description">
+                    We learned that fullstack development requires constant communication. 
+                    Additionally, we learned that it wasn't feasible to work with GitHub and constantly push, fork, and pull. 
+                    Instead we switched midway and made the adjustments to pair program. 
+                    Going foward we would like to make the recipe output faster as well as implement a feature that would allow users to actively track their GHG emissions. 
+                </p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-5" style="border-style: solid; border-color: white; border-bottom-color: rgb(100, 100, 100);">
+                <div class="card border-light text-center">
+                    <img src="HackUCI23.jpg" width="100%" height="auto">
+                        <div class="card-body">
+                            <p class="description">
+                            </p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>

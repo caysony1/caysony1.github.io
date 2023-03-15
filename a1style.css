@@ -1,34 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
 
-* {
-    font-family: 'Ubuntu', sans-serif;
-}
+/* {
+    font-family: 'Quicksand', sans-serif !important;
+}*/
 
 body {
-    background-color: rgb(223, 217, 217);
     background-color: white;
 }
 
-/* Used Rajasekhar Mekala's personal website as a reference to create a fixed vertical sidebar for navigating the portfoilio */
-#sidebar {
-    height: 100%;
-    width: 20%;
-    position: fixed;
-    border: 3px;
-    border-style: solid;
-    border-color: black;
-    background-color:rgb(223, 217, 217);
-    background-color: white;
-    border-radius: 10px;
+header {
+    font-family: 'Quicksand', sans-serif, 500 !important;
+    font-weight: 400;
+}
+
+section {
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 400;
 }
 
 a {
-    color: green;
-    text-decoration: none;
+    color: rgb(100, 100, 100) !important;
 }
 
 a:hover {
-    color: rgb(3, 47, 3);
+    color: black !important;
+    font-weight: 500;
+}
+
+a:focus {
+    color: rgb(100, 100, 100) !important;
+    font-weight: 500;
+}
+
+p {
+    font-size: 90% !important;
+}
+
+.intro {
+    font-size: 100% !important;
+    color: rgb(100, 100, 100);
+}
+
+.heading {
+    line-height: 175%;
+}
+
+.description {
+    font-size: 110% !important;
+}
+
+.textcolor {
+    color: rgb(100, 100, 100) !important;
+}
+
+.navtext {
+    font-size: 107% !important;
+    color: rgb(100, 100, 100);
 }
 
 span {
@@ -40,7 +68,7 @@ span {
 }
 
 .home {
-    border-bottom: 3px;
+    border-bottom: 2px;
     border-bottom-style: solid;
     border-color: black;
     padding: 10px;
@@ -49,7 +77,7 @@ span {
 }
 
 .education {
-    border-bottom: 3px;
+    border-bottom: 2px;
     border-bottom-style: solid;
     border-color: black;
     padding: 10px;
@@ -58,7 +86,7 @@ span {
 }
 
 .interests {
-    border-bottom: 3px;
+    border-bottom: 2px;
     border-bottom-style: solid;
     border-color: black;
     padding: 10px;
@@ -66,22 +94,13 @@ span {
     margin-bottom: 10px;
 }
 
-#newsidebar {
-    /*height: 100%;
-    width: 20%;
-    border: 3px;
-    border-style: solid;
-    border-color: black;
-    background-color:rgb(223, 217, 217);
-    border-radius: 10px;*/
-    display: none;
-}
-
 #personalphoto {
     height: auto;
-    width: 15%;
-    border-radius: 5px;
-    margin-top: 0;
+    width: 20%;
+    margin-top: 5%;
+    border-radius: 0px;
+    border: solid;
+    /*margin-top: ;*/
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -102,14 +121,10 @@ span {
 .anarticle {
     padding: 10px;
     border: 3px;
-    border-style: solid;
+    /*border-style: solid;*/
     border-color: black;
     border-radius: 10px;
     margin: 10px;
-}
-
-ul {
-    list-style-type: none;
 }
 
 .bulletlists {
@@ -125,11 +140,6 @@ ul {
     margin-top: 0;
     margin-bottom: 10px;
     margin-left: 20px;
-}
-
-footer {
-    margin-top: 50px;
-    margin-left: 20.5%;
 }
 
 .contact {
@@ -185,4 +195,13 @@ footer {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+p {
+    line-height: 175%;
+    font-size: 105%;
+}
+
+li {
+    line-height: 175%;
 }
